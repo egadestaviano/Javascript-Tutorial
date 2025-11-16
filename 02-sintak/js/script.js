@@ -1,19 +1,53 @@
-console.log("Hello World");
+// -----------------------------------------------
+// JavaScript Basic Tutorial (Beginner Friendly)
+// -----------------------------------------------
+//
+// 1. console.log()
+//    - Used to print text or values to the console.
+//    Example: console.log("Hello World");
+//
+// 2. Comments
+//    - Single-line comment: starts with //
+//    - Multi-line comment: starts with /* and ends with */
+//
+// 3. Semicolons
+//    - It's recommended to end each statement with a semicolon (;).
+//      This helps prevent unexpected behavior.
+//
+// 4. Whitespace
+//    - JavaScript ignores extra spaces and blank lines.
+//      They are only for readability.
+//
+// 5. Code Blocks
+//    - Code blocks start with { and end with }.
+//      Used for functions, conditions, loops, etc.
+//
+// 6. Case Sensitivity
+//    - JavaScript is case-sensitive.
+//      Example: "format" is different from "Format".
+//
+// 7. Variable Naming Rules
+//    - Cannot start with a number.
+//    - Cannot contain special characters like : + )
+//    - Can contain letters, numbers, $, and _.
+//    Example: let userName = "Alan";
+//
+// ------------------------------------------------
+// Example Code
+// ------------------------------------------------
+
+console.log("Hello World"); // Print to console
+
+// Single-line comment example
 
 /*
- * 1. remark multi row
- * 2. akhir dari statemnet akhiri titik koma
- * 3. spasi kosong diabaikan oleh javascript
- * 4. blok script diawali dengan { }
- * 5. javascript case sensitive
- * 6. pembuatan variable tidak boleh mengunakan karaketer khusus (: + )
- *
- */
+ Multi-line comment example
+ Multiple lines of explanations can go here
+*/
 
-// ini remark 1 row
+let format = true; // Create a variable
 
-let format = true;
-
+// Conditional check
 if (format) {
-  console.log("Hello World!!");
+  console.log("Hello World!!"); // Runs if format = true
 }
